@@ -1,0 +1,170 @@
+﻿@model EmployeeManagement.Models.Employee
+
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<div class="container-fluid py-3">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <div class="d-flex justify-content-between align-items-center">
+                <h3 class="mb-0">
+                    <i class="fas fa-id-card me-2"></i>Employee Details
+                </h3>
+                <a asp-action="Index" class="btn btn-light btn-sm">
+                    <i class="fas fa-arrow-left me-1"></i> Back to List
+                </a>
+            </div>
+        </div>
+
+        <div class="card-body">
+            <div class="employee-profile">
+                <!-- Profile Header -->
+                <div class="d-flex flex-column flex-md-row align-items-center mb-4">
+                    <div class="avatar avatar-xl bg-light-primary rounded-circle me-0 me-md-3 mb-3 mb-md-0">
+                        <span class="avatar-text">@Model.Name[0]</span>
+                    </div>
+                    <div class="text-center text-md-start">
+                        <h2 class="mb-1">@Model.Name</h2>
+                        <div class="d-flex flex-wrap justify-content-center justify-content-md-start gap-2">
+                            <span class="badge bg-primary">@Model.Position</span>
+                            <span class="badge bg-secondary">@Model.Department</span>
+                            <span class="badge @(Model.Status == "Active" ? "bg-success" : "bg-warning")">@Model.Status</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Employee Details -->
+                <div class="row g-3">
+                    <!-- Column 1 -->
+                    <div class="col-md-6">
+                        <div class="detail-item">
+                            <span class="detail-label">Employee ID</span>
+                            <span class="detail-value">@Model.EmployeeId</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Gender</span>
+                            <span class="detail-value">@Model.Gender</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Hire Date</span>
+                            <span class="detail-value">@Model.HireDate.ToString("dd/MM/yyyy")</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Salary</span>
+                            <span class="detail-value">@Model.Salary.ToString("N0") $</span>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="col-md-6">
+                        <div class="detail-item">
+                            <span class="detail-label">Role</span>
+                            <span class="detail-value">@Model.Role</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email</span>
+                            <span class="detail-value">
+                                <a href="mailto:@Model.Email" class="text-decoration-none">@Model.Email</a>
+                            </span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Phone</span>
+                            <span class="detail-value">
+                                <a href="tel:@Model.PhoneNumber" class="text-decoration-none">@Model.PhoneNumber</a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Full width row -->
+                    <div class="col-12">
+                        <div class="detail-item">
+                            <span class="detail-label">Address</span>
+                            <span class="detail-value">@Model.Address</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-footer bg-light">
+            <div class="d-flex flex-column flex-md-row justify-content-md-end gap-2">
+                <a asp-action="Edit" asp-route-id="@Model.EmployeeId" class="btn btn-warning px-4">
+                    <i class="fas fa-edit me-2"></i>Edit
+                </a>
+                <a asp-action="Delete" asp-route-id="@Model.EmployeeId" class="btn btn-danger px-4">
+                    <i class="fas fa-trash-alt me-2"></i>Delete
+                </a>
+                <a asp-action="Index" class="btn btn-outline-secondary px-4">
+                    <i class="fas fa-list me-2"></i>Back to List
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .employee-profile {
+            color: #495057;
+        }
+
+        .avatar {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .avatar-xl {
+            width: 80px;
+            height: 80px;
+            font-size: 2rem;
+        }
+
+        .avatar-text {
+            font-weight: 600;
+            color: #4361ee;
+        }
+
+        .bg-light-primary {
+            background-color: rgba(67, 97, 238, 0.1);
+        }
+
+        .detail-item {
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            background-color: #f8f9fa;
+            margin-bottom: 1rem;
+        }
+
+        .detail-label {
+            display: block;
+            font-weight: 600;
+            color: #6c757d;
+            font-size: 0.875rem;
+        }
+
+        .detail-value {
+            display: block;
+            font-size: 1.1rem;
+            color: #212529;
+        }
+
+        .badge {
+            font-weight: 500;
+            padding: 0.35em 0.65em;
+        }
+
+        @@media (max-width: 767.98px) {
+            .avatar-xl {
+                width: 60px;
+                height: 60px;
+                font-size: 1.5rem;
+            }
+
+            .detail-item {
+                padding: 0.5rem;
+            }
+        }
+    </style>
+}

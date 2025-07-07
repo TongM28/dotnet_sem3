@@ -1,0 +1,251 @@
+﻿@model EmployeeManagement.Models.Employee
+
+@{
+    ViewData["Title"] = "Edit Employee";
+}
+
+<div class="container-fluid py-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <div class="d-flex justify-content-between align-items-center">
+                <h3 class="mb-0">
+                    <i class="fas fa-user-edit me-2"></i>Edit Employee
+                </h3>
+                <a asp-action="Index" class="btn btn-light btn-sm">
+                    <i class="fas fa-arrow-left me-1"></i> Back to List
+                </a>
+            </div>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="Edit" class="needs-validation" novalidate>
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                <input type="hidden" asp-for="EmployeeId" />
+
+                <div class="row g-3">
+                    <!-- Employee ID (readonly) -->
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input asp-for="EmployeeId" class="form-control" placeholder=" " readonly />
+                            <label asp-for="EmployeeId"></label>
+                            <span asp-validation-for="EmployeeId" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Name -->
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input asp-for="Name" class="form-control" placeholder=" " required />
+                            <label asp-for="Name"></label>
+                            <span asp-validation-for="Name" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Gender -->
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <select asp-for="Gender" class="form-select" required>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                
+                            </select>
+                            <label asp-for="Gender"></label>
+                            <span asp-validation-for="Gender" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Position -->
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <select asp-for="Position" class="form-select" required>
+                                <option value="Software Engineer">Software Engineer</option>
+                                <option value="Senior Developer">Senior Developer</option>
+                                <option value="Team Lead">Team Lead</option>
+                                <option value="Project Manager">Project Manager</option>
+                                <option value="HR Manager">HR Manager</option>
+                                <option value="Recruiter">Recruiter</option>
+                                <option value="Accountant">Accountant</option>
+                                <option value="Marketing Specialist">Marketing Specialist</option>
+                                <option value="Sales Executive">Sales Executive</option>
+                                <option value="Operations Manager">Operations Manager</option>
+                                <option value="IT Support">IT Support</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <label asp-for="Position"></label>
+                            <span asp-validation-for="Position" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Department -->
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <select asp-for="Department" class="form-select" required>
+                                <option value="IT">Information Technology</option>
+                                <option value="HR">Human Resources</option>
+                                <option value="Finance">Finance</option>
+                                <option value="Marketing">Marketing</option>
+                                <option value="Sales">Sales</option>
+                                <option value="Operations">Operations</option>
+                                <option value="Customer Support">Customer Support</option>
+                                <option value="Research & Development">Research & Development</option>
+                                <option value="Product Management">Product Management</option>
+                                <option value="Quality Assurance">Quality Assurance</option>
+                                <option value="Administration">Administration</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <label asp-for="Department"></label>
+                            <span asp-validation-for="Department" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Salary -->
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input asp-for="Salary" class="form-control" placeholder=" " required />
+                            <label asp-for="Salary"></label>
+                            <span asp-validation-for="Salary" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Hire Date -->
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input asp-for="HireDate" type="date" class="form-control" placeholder=" " required />
+                            <label asp-for="HireDate"></label>
+                            <span asp-validation-for="HireDate" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Status -->
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <select asp-for="Status" class="form-select" required>
+                                <option value="Active">Active</option>
+                                <option value="Inactive">Inactive</option>
+                               
+                            </select>
+                            <label asp-for="Status"></label>
+                            <span asp-validation-for="Status" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Role -->
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <select asp-for="Role" class="form-select" required>
+                                <option value="Employee">Employee</option>
+                                <option value="Admin">Administrator</option>                                
+                            </select>
+                            <label asp-for="Role"></label>
+                            <span asp-validation-for="Role" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Phone Number -->
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <input asp-for="PhoneNumber" class="form-control" placeholder=" " />
+                            <label asp-for="PhoneNumber"></label>
+                            <span asp-validation-for="PhoneNumber" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input asp-for="Email" type="email" class="form-control" placeholder=" " />
+                            <label asp-for="Email"></label>
+                            <span asp-validation-for="Email" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <textarea asp-for="Address" class="form-control" placeholder=" " style="height: 100px"></textarea>
+                            <label asp-for="Address"></label>
+                            <span asp-validation-for="Address" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="col-12 mt-4">
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button type="submit" class="btn btn-primary px-4">
+                                <i class="fas fa-save me-2"></i>Save Changes
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary px-4">
+                                <i class="fas fa-times me-2"></i>Cancel
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .form-floating {
+            margin-bottom: 1rem;
+        }
+
+            .form-floating > label {
+                color: #6c757d;
+            }
+
+        .form-control, .form-select {
+            border-radius: 0.375rem;
+        }
+
+        .card {
+            border: none;
+            border-radius: 0.5rem;
+        }
+
+        .card-header {
+            border-radius: 0.5rem 0.5rem 0 0 !important;
+        }
+
+        .form-select {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 0.75rem center;
+            background-size: 16px 12px;
+        }
+
+        @@media (max-width: 767.98px) {
+            .form-floating {
+                margin-bottom: 0.75rem;
+            }
+
+            .btn {
+                width: 100%;
+                margin-bottom: 0.5rem;
+            }
+        }
+    </style>
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        // Enable Bootstrap validation
+        (function () {
+            'use strict'
+            const forms = document.querySelectorAll('.needs-validation')
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+}
