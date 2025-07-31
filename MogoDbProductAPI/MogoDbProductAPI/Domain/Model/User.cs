@@ -1,4 +1,4 @@
-using MongoDB.Bson;
+﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
 namespace MogoDbProductAPI.Domain.Model
@@ -12,5 +12,6 @@ namespace MogoDbProductAPI.Domain.Model
         public string Username { get; set; } = null!;
         public string Email { get; set; } = null!;
         public string PasswordHash { get; set; } = null!;
+        public string Role { get; set; } = "User"; // Mặc định là "User"
     }
 }

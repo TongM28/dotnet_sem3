@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MogoDbProductAPI.Domain.Model;
 
 [ApiController]
@@ -11,22 +11,37 @@ public class AuthController : ControllerBase
         _userService = userService;
     }
 
+    //[HttpPost("register")]
+    //public async Task<IActionResult> Register(UserDto dto)
+    //{
+    //    var user = new User { Username = dto.Username, Email = dto.Email };
+    //    var created = await _userService.Register(user, dto.Password);
+    //    return Ok(new { created.Id, created.Username });
+    //}
+
+    //[HttpPost("login")]
+    //public async Task<IActionResult> Login(LoginDto dto)
+    //{
+    //    var token = await _userService.Login(dto.Email, dto.Password);
+    //    if (token == null) return Unauthorized();
+    //    return Ok(new { token });
+    //}
     [HttpPost("register")]
     public async Task<IActionResult> Register(UserDto dto)
     {
-        var user = new User { Username = dto.Username, Email = dto.Email };
+        var user = new User
+        {
+            Username = dto.Username,
+            Email = dto.Email,
+            Role = string.IsNullOrEmpty(dto.Role) ? "User" : dto.Role // Nếu không truyền, gán User
+        };
         var created = await _userService.Register(user, dto.Password);
-        return Ok(new { created.Id, created.Username });
+        return Ok(new { created.Id, created.Username, created.Role });
     }
 
-    [HttpPost("login")]
-    public async Task<IActionResult> Login(LoginDto dto)
-    {
-        var token = await _userService.Login(dto.Email, dto.Password);
-        if (token == null) return Unauthorized();
-        return Ok(new { token });
-    }
 }
 
-public record UserDto(string Username, string Email, string Password);
+//public record UserDto(string Username, string Email, string Password);
+public record UserDto(string Username, string Email, string Password, string Role); // Thêm Role
+
 public record LoginDto(string Email, string Password);

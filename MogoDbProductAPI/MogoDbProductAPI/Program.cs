@@ -81,9 +81,10 @@ using MogoDbProductAPI.Data;
 using MogoDbProductAPI.Domain.Contracts;
 using MogoDbProductAPI.Extensions;
 using MogoDbProductAPI.Service;
+using MongoDB.Driver;
 using Scalar.AspNetCore;
-using System.Text;
 using System.Net;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -108,7 +109,13 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
-        var key = Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]);
+        //var key = Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]);
+        var jwtKey = builder.Configuration["Jwt:Key"];
+        if (string.IsNullOrEmpty(jwtKey))
+            throw new Exception("JWT Key is missing in configuration (Jwt:Key)");
+
+        var key = Encoding.UTF8.GetBytes(jwtKey);
+
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
@@ -138,8 +145,22 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             }
         };
     });
+builder.Services.AddSingleton<IMongoClient>(sp =>
+{
+    var connectionString = builder.Configuration.GetSection("MongoDB:ConnectionString").Value;
+    return new MongoClient(connectionString);
+});
+
+builder.Services.AddScoped<IMongoDatabase>(sp =>
+{
+    var client = sp.GetRequiredService<IMongoClient>();
+    var databaseName = builder.Configuration.GetSection("MongoDB:DatabaseName").Value;
+    return client.GetDatabase(databaseName);
+});
 
 builder.Services.AddAuthorization();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
 

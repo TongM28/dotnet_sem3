@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0D0E7C-BB13-8ADA-08A5-FC71996985E7}|MogoDbProductAPI.csproj|c:\\users\\thinkpad\\downloads\\documents\\dotnet_sem3\\mogodbproductapi\\mogodbproductapi\\domain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0D0E7C-BB13-8ADA-08A5-FC71996985E7}|MogoDbProductAPI.csproj|solutionrelative:domain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0D0E7C-BB13-8ADA-08A5-FC71996985E7}|MogoDbProductAPI.csproj|c:\\users\\thinkpad\\downloads\\documents\\dotnet_sem3\\mogodbproductapi\\mogodbproductapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F0D0E7C-BB13-8ADA-08A5-FC71996985E7}|MogoDbProductAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0D0E7C-BB13-8ADA-08A5-FC71996985E7}|MogoDbProductAPI.csproj|c:\\users\\thinkpad\\downloads\\documents\\dotnet_sem3\\mogodbproductapi\\mogodbproductapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0D0E7C-BB13-8ADA-08A5-FC71996985E7}|MogoDbProductAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0D0E7C-BB13-8ADA-08A5-FC71996985E7}|MogoDbProductAPI.csproj|c:\\users\\thinkpad\\downloads\\documents\\dotnet_sem3\\mogodbproductapi\\mogodbproductapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0D0E7C-BB13-8ADA-08A5-FC71996985E7}|MogoDbProductAPI.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0D0E7C-BB13-8ADA-08A5-FC71996985E7}|MogoDbProductAPI.csproj|c:\\users\\thinkpad\\downloads\\documents\\dotnet_sem3\\mogodbproductapi\\mogodbproductapi\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0D0E7C-BB13-8ADA-08A5-FC71996985E7}|MogoDbProductAPI.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0D0E7C-BB13-8ADA-08A5-FC71996985E7}|MogoDbProductAPI.csproj|c:\\users\\thinkpad\\downloads\\documents\\dotnet_sem3\\mogodbproductapi\\mogodbproductapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0D0E7C-BB13-8ADA-08A5-FC71996985E7}|MogoDbProductAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-29T04:40:38.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T04:45:18.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T04:44:36.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Service\\UserService.cs",
+              "RelativeToolTip": "Service\\UserService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwDkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T04:36:20.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T04:34:53.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Domain\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Domain\\Model\\User.cs",
+              "RelativeToolTip": "Domain\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T04:33:57.514Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

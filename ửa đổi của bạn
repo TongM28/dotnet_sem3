@@ -1,0 +1,154 @@
+[1mdiff --git a/MogoDbProductAPI/.vs/MogoDbProductAPI/DesignTimeBuild/.dtbcache.v2 b/MogoDbProductAPI/.vs/MogoDbProductAPI/DesignTimeBuild/.dtbcache.v2[m
+[1mindex 6ae7041..3a90b03 100644[m
+Binary files a/MogoDbProductAPI/.vs/MogoDbProductAPI/DesignTimeBuild/.dtbcache.v2 and b/MogoDbProductAPI/.vs/MogoDbProductAPI/DesignTimeBuild/.dtbcache.v2 differ
+[1mdiff --git a/MogoDbProductAPI/.vs/MogoDbProductAPI/FileContentIndex/8a106865-a40f-42fa-a178-cb9986711a86.vsidx b/MogoDbProductAPI/.vs/MogoDbProductAPI/FileContentIndex/8a106865-a40f-42fa-a178-cb9986711a86.vsidx[m
+[1mdeleted file mode 100644[m
+[1mindex 0c4af3b..0000000[m
+Binary files a/MogoDbProductAPI/.vs/MogoDbProductAPI/FileContentIndex/8a106865-a40f-42fa-a178-cb9986711a86.vsidx and /dev/null differ
+[1mdiff --git a/MogoDbProductAPI/.vs/MogoDbProductAPI/FileContentIndex/8fa8378f-0a45-44a7-9a80-0328d0167fc3.vsidx b/MogoDbProductAPI/.vs/MogoDbProductAPI/FileContentIndex/8fa8378f-0a45-44a7-9a80-0328d0167fc3.vsidx[m
+[1mdeleted file mode 100644[m
+[1mindex 471ee50..0000000[m
+Binary files a/MogoDbProductAPI/.vs/MogoDbProductAPI/FileContentIndex/8fa8378f-0a45-44a7-9a80-0328d0167fc3.vsidx and /dev/null differ
+[1mdiff --git a/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/.futdcache.v2 b/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/.futdcache.v2[m
+[1mindex 89a1811..1bde35f 100644[m
+Binary files a/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/.futdcache.v2 and b/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/.futdcache.v2 differ
+[1mdiff --git a/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/.suo b/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/.suo[m
+[1mindex 5320725..a463b08 100644[m
+Binary files a/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/.suo and b/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/.suo differ
+[1mdiff --git a/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/DocumentLayout.backup.json b/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/DocumentLayout.backup.json[m
+[1mindex f09fe7a..d407dec 100644[m
+[1m--- a/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/DocumentLayout.backup.json[m
+[1m+++ b/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/DocumentLayout.backup.json[m
+[36m@@ -1,18 +1,18 @@[m
+ {[m
+   "Version": 1,[m
+[31m-  "WorkspaceRootPath": "C:\\Users\\bao.hamanh\\Documents\\my docs\\CliffTechYouTube\\MongoDb-dotnet-react\\server-dotnet\\MogoDbProductAPI\\",[m
+[32m+[m[32m  "WorkspaceRootPath": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\",[m[41m[m
+   "Documents": [[m
+     {[m
+[31m-      "AbsoluteMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|c:\\users\\bao.hamanh\\documents\\my docs\\clifftechyoutube\\mongodb-dotnet-react\\server-dotnet\\mogodbproductapi\\mogodbproductapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",[m
+[31m-      "RelativeMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|solutionrelative:mogodbproductapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|c:\\users\\thinkpad\\downloads\\documents\\dotnet_sem3\\mogodbproductapi\\mogodbproductapi\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m[41m[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|solutionrelative:mogodbproductapi\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m[41m[m
+     },[m
+     {[m
+[31m-      "AbsoluteMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|c:\\users\\bao.hamanh\\documents\\my docs\\clifftechyoutube\\mongodb-dotnet-react\\server-dotnet\\mogodbproductapi\\mogodbproductapi\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m
+[31m-      "RelativeMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|solutionrelative:mogodbproductapi\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|c:\\users\\thinkpad\\downloads\\documents\\dotnet_sem3\\mogodbproductapi\\mogodbproductapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m[41m[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|solutionrelative:mogodbproductapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m[41m[m
+     },[m
+     {[m
+[31m-      "AbsoluteMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|c:\\users\\bao.hamanh\\documents\\my docs\\clifftechyoutube\\mongodb-dotnet-react\\server-dotnet\\mogodbproductapi\\mogodbproductapi\\domain\\contracts\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m
+[31m-      "RelativeMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|solutionrelative:mogodbproductapi\\domain\\contracts\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|c:\\users\\thinkpad\\downloads\\documents\\dotnet_sem3\\mogodbproductapi\\mogodbproductapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",[m[41m[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|solutionrelative:mogodbproductapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"[m[41m[m
+     }[m
+   ],[m
+   "DocumentGroupContainers": [[m
+[36m@@ -27,39 +27,40 @@[m
+             {[m
+               "$type": "Document",[m
+               "DocumentIndex": 0,[m
+[32m+[m[32m              "Title": "OrderService.cs",[m[41m[m
+[32m+[m[32m              "DocumentMoniker": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Service\\OrderService.cs",[m[41m[m
+[32m+[m[32m              "RelativeDocumentMoniker": "MogoDbProductAPI\\Service\\OrderService.cs",[m[41m[m
+[32m+[m[32m              "ToolTip": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Service\\OrderService.cs",[m[41m[m
+[32m+[m[32m              "RelativeToolTip": "MogoDbProductAPI\\Service\\OrderService.cs",[m[41m[m
+[32m+[m[32m              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",[m[41m[m
+[32m+[m[32m              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",[m[41m[m
+[32m+[m[32m              "WhenOpened": "2025-07-30T07:57:43.277Z",[m[41m[m
+[32m+[m[32m              "EditorCaption": ""[m[41m[m
+[32m+[m[32m            },[m[41m[m
+[32m+[m[32m            {[m[41m[m
+[32m+[m[32m              "$type": "Document",[m[41m[m
+[32m+[m[32m              "DocumentIndex": 2,[m[41m[m
+               "Title": "appsettings.json",[m
+[31m-              "DocumentMoniker": "C:\\Users\\bao.hamanh\\Documents\\my docs\\CliffTechYouTube\\MongoDb-dotnet-react\\server-dotnet\\MogoDbProductAPI\\MogoDbProductAPI\\appsettings.json",[m
+[32m+[m[32m              "DocumentMoniker": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\appsettings.json",[m[41m[m
+               "RelativeDocumentMoniker": "MogoDbProductAPI\\appsettings.json",[m
+[31m-              "ToolTip": "C:\\Users\\bao.hamanh\\Documents\\my docs\\CliffTechYouTube\\MongoDb-dotnet-react\\server-dotnet\\MogoDbProductAPI\\MogoDbProductAPI\\appsettings.json",[m
+[32m+[m[32m              "ToolTip": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\appsettings.json",[m[41m[m
+               "RelativeToolTip": "MogoDbProductAPI\\appsettings.json",[m
+               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",[m
+               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",[m
+[31m-              "WhenOpened": "2025-07-17T07:53:06.855Z",[m
+[32m+[m[32m              "WhenOpened": "2025-07-30T07:54:09.855Z",[m[41m[m
+               "EditorCaption": ""[m
+             },[m
+[31m-            {[m
+[31m-              "$type": "Document",[m
+[31m-              "DocumentIndex": 2,[m
+[31m-              "Title": "MongoDBSettings.cs",[m
+[31m-              "DocumentMoniker": "C:\\Users\\bao.hamanh\\Documents\\my docs\\CliffTechYouTube\\MongoDb-dotnet-react\\server-dotnet\\MogoDbProductAPI\\MogoDbProductAPI\\Domain\\Contracts\\MongoDBSettings.cs",[m
+[31m-              "RelativeDocumentMoniker": "MogoDbProductAPI\\Domain\\Contracts\\MongoDBSettings.cs",[m
+[31m-              "ToolTip": "C:\\Users\\bao.hamanh\\Documents\\my docs\\CliffTechYouTube\\MongoDb-dotnet-react\\server-dotnet\\MogoDbProductAPI\\MogoDbProductAPI\\Domain\\Contracts\\MongoDBSettings.cs",[m
+[31m-              "RelativeToolTip": "MogoDbProductAPI\\Domain\\Contracts\\MongoDBSettings.cs",[m
+[31m-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",[m
+[31m-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",[m
+[31m-              "WhenOpened": "2025-07-17T07:41:14.047Z"[m
+[31m-            },[m
+             {[m
+               "$type": "Document",[m
+               "DocumentIndex": 1,[m
+[31m-              "Title": "UserService.cs",[m
+[31m-              "DocumentMoniker": "C:\\Users\\bao.hamanh\\Documents\\my docs\\CliffTechYouTube\\MongoDb-dotnet-react\\server-dotnet\\MogoDbProductAPI\\MogoDbProductAPI\\Service\\UserService.cs",[m
+[31m-              "RelativeDocumentMoniker": "MogoDbProductAPI\\Service\\UserService.cs",[m
+[31m-              "ToolTip": "C:\\Users\\bao.hamanh\\Documents\\my docs\\CliffTechYouTube\\MongoDb-dotnet-react\\server-dotnet\\MogoDbProductAPI\\MogoDbProductAPI\\Service\\UserService.cs",[m
+[31m-              "RelativeToolTip": "MogoDbProductAPI\\Service\\UserService.cs",[m
+[31m-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",[m
+[32m+[m[32m              "Title": "Program.cs",[m[41m[m
+[32m+[m[32m              "DocumentMoniker": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Program.cs",[m[41m[m
+[32m+[m[32m              "RelativeDocumentMoniker": "MogoDbProductAPI\\Program.cs",[m[41m[m
+[32m+[m[32m              "ToolTip": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Program.cs",[m[41m[m
+[32m+[m[32m              "RelativeToolTip": "MogoDbProductAPI\\Program.cs",[m[41m[m
+[32m+[m[32m              "ViewState": "AgIAAIIAAAAAAAAAAAAcwJcAAAADAAAAAAAAAA==",[m[41m[m
+               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",[m
+[31m-              "WhenOpened": "2025-07-17T07:37:15.493Z",[m
+[32m+[m[32m              "WhenOpened": "2025-07-30T07:51:45.976Z",[m[41m[m
+               "EditorCaption": ""[m
+             }[m
+           ][m
+[1mdiff --git a/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/DocumentLayout.json b/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/DocumentLayout.json[m
+[1mindex 7ad0c1c..d407dec 100644[m
+[1m--- a/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/DocumentLayout.json[m
+[1m+++ b/MogoDbProductAPI/.vs/MogoDbProductAPI/v17/DocumentLayout.json[m
+[36m@@ -1,18 +1,18 @@[m
+ {[m
+   "Version": 1,[m
+[31m-  "WorkspaceRootPath": "C:\\Users\\bao.hamanh\\Documents\\my docs\\CliffTechYouTube\\MongoDb-dotnet-react\\server-dotnet\\MogoDbProductAPI\\",[m
+[32m+[m[32m  "WorkspaceRootPath": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\",[m[41m[m
+   "Documents": [[m
+     {[m
+[31m-      "AbsoluteMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|c:\\users\\bao.hamanh\\documents\\my docs\\clifftechyoutube\\mongodb-dotnet-react\\server-dotnet\\mogodbproductapi\\mogodbproductapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",[m
+[31m-      "RelativeMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|solutionrelative:mogodbproductapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|c:\\users\\thinkpad\\downloads\\documents\\dotnet_sem3\\mogodbproductapi\\mogodbproductapi\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m[41m[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|solutionrelative:mogodbproductapi\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m[41m[m
+     },[m
+     {[m
+[31m-      "AbsoluteMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|c:\\users\\bao.hamanh\\documents\\my docs\\clifftechyoutube\\mongodb-dotnet-react\\server-dotnet\\mogodbproductapi\\mogodbproductapi\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m
+[31m-      "RelativeMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|solutionrelative:mogodbproductapi\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|c:\\users\\thinkpad\\downloads\\documents\\dotnet_sem3\\mogodbproductapi\\mogodbproductapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m[41m[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|solutionrelative:mogodbproductapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m[41m[m
+     },[m
+     {[m
+[31m-      "AbsoluteMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|c:\\users\\bao.hamanh\\documents\\my docs\\clifftechyoutube\\mongodb-dotnet-react\\server-dotnet\\mogodbproductapi\\mogodbproductapi\\domain\\contracts\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m
+[31m-      "RelativeMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|solutionrelative:mogodbproductapi\\domain\\contracts\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|c:\\users\\thinkpad\\downloads\\documents\\dotnet_sem3\\mogodbproductapi\\mogodbproductapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",[m[41m[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{578CDDB4-2421-44BE-82C7-3B5FABD6F8CB}|MogoDbProductAPI\\MogoDbProductAPI.csproj|solutionrelative:mogodbproductapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"[m[41m[m
+     }[m
+   ],[m
+   "DocumentGroupContainers": [[m
+[36m@@ -27,39 +27,41 @@[m
+             {[m
+               "$type": "Document",[m
+               "DocumentIndex": 0,[m
+[32m+[m[32m              "Title": "OrderService.cs",[m[41m[m
+[32m+[m[32m              "DocumentMoniker": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Service\\OrderService.cs",[m[41m[m
+[32m+[m[32m              "RelativeDocumentMoniker": "MogoDbProductAPI\\Service\\OrderService.cs",[m[41m[m
+[32m+[m[32m              "ToolTip": "C:\\Users\\ThinkPad\\Downloads\\Documents\\dotnet_sem3\\MogoDbProductAPI\\MogoDbProductAPI\\Service\\OrderService.cs",[m[41m[m
+[32m+[m[32m              "RelativeToolTip": "MogoDbProductAPI\\Service\\OrderService.cs",[m[41m[m
+[32m+[m[32m              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",[m[41m[m
+[32m+[m[32m              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",[m[41m[m
+[32m+[m[32m              "WhenOpened": "2025-07-30T07:57:43.277Z",[m[41m[m
+[32m+[m[32m              "EditorCaption": ""[m[41m[m
+[32m+[m[3
