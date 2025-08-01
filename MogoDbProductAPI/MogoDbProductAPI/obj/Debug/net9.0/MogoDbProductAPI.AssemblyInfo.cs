@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MogoDbProductAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+312214f7082dc61f2b84498d683285c83a8465cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06ecfb46a6f6e5a086ad28b9f70d89ade99f80f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MogoDbProductAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MogoDbProductAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
