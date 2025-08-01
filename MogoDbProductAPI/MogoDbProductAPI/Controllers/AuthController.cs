@@ -1,5 +1,35 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MogoDbProductAPI.Domain.Model;
+using MogoDbProductAPI.Models;
+using MogoDbProductAPI.Service;
+namespace MogoDbProductAPI.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class AuthController : ControllerBase
+    {
+        private readonly IAuthService _authService;
+
+        public AuthController(IAuthService authService)
+        {
+            _authService = authService;
+        }
+
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] LoginRequest request)
+        {
+            try
+            {
+                var token = _authService.Login(request);
+                return Ok(new { Token = token });
+            }
+            catch (UnauthorizedAccessException)
+            {
+                return Unauthorized("Invalid email or password.");
+            }
+        }
+    }
+}
 
 [ApiController]
 [Route("api/[controller]")]

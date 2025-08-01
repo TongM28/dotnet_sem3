@@ -86,6 +86,8 @@ using Scalar.AspNetCore;
 using System.Net;
 using System.Text;
 
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // CORS
@@ -94,6 +96,7 @@ builder.Services.ConfigureCors(builder.Configuration);
 // Controllers
 builder.Services.AddControllers();
 
+builder.Services.AddScoped<IAuthService, AuthService>();
 // Swagger
 builder.Services.AddOpenApi();
 
@@ -178,6 +181,8 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
     app.MapScalarApiReference();
 }
+
+
 
 app.UseHttpsRedirection();
 

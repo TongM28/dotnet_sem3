@@ -141,6 +141,5 @@ C:\Users\ThinkPad\Downloads\Documents\dotnet_sem3\MogoDbProductAPI\MogoDbProduct
 C:\Users\ThinkPad\Downloads\Documents\dotnet_sem3\MogoDbProductAPI\MogoDbProductAPI\obj\Debug\net9.0\MogoDbProductAPI.pdb
 C:\Users\ThinkPad\Downloads\Documents\dotnet_sem3\MogoDbProductAPI\MogoDbProductAPI\obj\Debug\net9.0\MogoDbProductAPI.genruntimeconfig.cache
 C:\Users\ThinkPad\Downloads\Documents\dotnet_sem3\MogoDbProductAPI\MogoDbProductAPI\obj\Debug\net9.0\ref\MogoDbProductAPI.dll
-C:\Users\ThinkPad\Downloads\Documents\dotnet_sem3\MogoDbProductAPI\MogoDbProductAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\ThinkPad\Downloads\Documents\dotnet_sem3\MogoDbProductAPI\MogoDbProductAPI\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\ThinkPad\Downloads\Documents\dotnet_sem3\MogoDbProductAPI\MogoDbProductAPI\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
